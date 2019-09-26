@@ -9,10 +9,22 @@
 body {
     font-family: 'Poppins' , sans-serif;
     font-size: 1.1rem;
-    color: #444;     
+    color: #444; 
 }
 
-/* =============== first section =============== */
+.btn {
+    margin-top: 1em;
+    display: inline-block;
+    background-color: #0f9;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;   
+    padding: 0.7em 1.7em;
+}
+
+.btn:hover {
+    background-color: rgb(9, 189, 159);
+}
 
 h1 {
     margin: 0.3em 0;
@@ -24,6 +36,15 @@ h1 {
     letter-spacing: 15px; 
     text-align: center;
 }
+
+h2 {
+    font-size: 1.6rem;
+    margin-bottom: 0.5em;
+}
+
+
+/* =============== first section =============== */
+
 
 .hero h1 span {
     font-weight: 300;
@@ -47,11 +68,6 @@ h1 {
 }
 
 /* =============== second section ============== */
-
-h2 {
-    font-size: 1.6rem;
-    margin-bottom: 0.5em;
-}
 
 .sales-points {
     padding: 3em 1em;
@@ -102,18 +118,4 @@ h2 {
     .cta-text {
         flex-basis: 50%;
     }
-}
-
-.btn {
-    margin-top: 1em;
-    display: inline-block;
-    background-color: #0f9;
-    text-decoration: none;
-    color: #fff;
-    font-weight: 600;   
-    padding: 0.7em 1.7em;
-}
-
-.btn:hover {
-    background-color: rgb(9, 189, 159);
 }
