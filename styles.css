@@ -8,7 +8,38 @@
 
 body {
     font-family: 'Poppins' , sans-serif;
-    font-size: 1.1em;
+    font-size: 1.1rem;
     color: #444;     
 }
 
+h1 {
+    margin: 0.3em 0;
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: #0f9;
+    outline: 3px solid #fff;
+    padding: 0.1em;
+    letter-spacing: 15px; 
+}
+
+.hero h1 span {
+    font-weight: 300;
+
+}
+
+.hero p span {
+    color: #0f9;
+}
+
+.hero {
+    background-image: url(//unsplash.it/1000/900);
+    background-size: cover;
+    background-position: center;
+    padding: 10em 0;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
